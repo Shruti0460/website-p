@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - Food Ordering App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Foodie</h1>
+      <a href="index.html">Home</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <section class="menu">
+    <h2>Menu</h2>
+    <div class="food-item">
+      <img src="background.jpg" alt="Pizza">
+      <div class="food-details">
+        <h3>Pizza</h3>
+        <p>$12</p>
+        <button onclick="addToCart('Pizza', 12)">Add to Cart</button>
+      </div>
+    </div>
+    <div class="food-item">
+      <img src="background.jpg" alt="Burger">
+      <div class="food-details">
+        <h3>Burger</h3>
+        <p>$8</p>
+        <button onclick="addToCart('Burger', 8)">Add to Cart</button>
+      </div>
+    </div>
+    <div class="food-item">
+      <img src="background.jpg" alt="Soda">
+      <div class="food-details">
+        <h3>Soda</h3>
+        <p>$2</p>
+        <button onclick="addToCart('Soda', 2)">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Foodie Inc.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
