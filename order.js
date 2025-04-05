@@ -1,5 +1,5 @@
 // Initialize an empty cart
-let cart = [];
+let cart = [cart];
 
 // Function to add items to the cart
 function addToCart(itemName, itemPrice) {
